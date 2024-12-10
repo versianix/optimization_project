@@ -32,7 +32,6 @@ optimization_project/
 │   ├── ids.c          # ID processing and hash table logic
 ├── doc/               # Documentation directory
 │   ├── solution.md    # Detailed explanation of the solution
-│   ├── performance.md # Performance analysis
 ├── tutorial/          # Compilation and execution tutorial
 │   ├── tutorial.md    # Step-by-step guide for setup and usage
 └── README.md          # Repository overview (this file)
