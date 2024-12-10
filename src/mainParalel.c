@@ -58,9 +58,9 @@ int main() {
         exit(1);
     }
 
-    load_records("A.txt", recordsA);
-    load_records("B.txt", recordsB);
-    load_ids("ids.txt", ids); // Assuming ids are the same for both A and B
+    load_records("../db/A.txt", recordsA);
+    load_records("../db/B.txt", recordsB);
+    load_ids("../db/ids.txt", ids); // Assuming ids are the same for both A and B
   
     // Filtra os registros A e B
     int numA = filter_A_records(recordsA, validA, NUM_RECORDS);
